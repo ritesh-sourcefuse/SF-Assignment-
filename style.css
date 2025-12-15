@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input, select {
+  margin: 5px;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.edit-input {
+  width: 95%;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+#loadBtn {
+  background-color: #007bff;
+  color: white;
+}
+#loadBtn:hover {
+  background-color: #0056b3;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+}
+.edit-btn:hover {
+  background-color: #d39e00;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
